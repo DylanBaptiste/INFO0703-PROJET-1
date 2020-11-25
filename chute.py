@@ -12,7 +12,7 @@ msg['To'] = 'dylan.baptiste@etudiant.univ-reims.fr'
 msg['Subject'] = 'Le sujet de mon mail' 
 message = 'Bonjour !'
 msg.attach(MIMEText(message))
-mailserver = smtplib.SMTP('smtp.gmail.com', 465)
+mailserver = smtplib.SMTP_SSL('smtp.gmail.com', 465)
 mailserver.login('info704projet1@gmail.com', 'info0704')
 mailserver.sendmail('info704projet1@gmail.com', 'dylan.baptiste@etudiant.univ-reims.fr', msg.as_string())
 mailserver.quit()
