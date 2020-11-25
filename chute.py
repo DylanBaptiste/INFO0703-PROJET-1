@@ -16,7 +16,7 @@ mailserver = smtplib.SMTP('smtp.gmail.com', 587)
 mailserver.ehlo()
 mailserver.starttls()
 mailserver.ehlo()
-mailserver.login('info704projet1@gmail.com', 'info0704')
+mailserver.login('info704projet1@gmail.com', 'info704')
 mailserver.sendmail('info704projet1@gmail.com', 'dylan.baptiste@etudiant.univ-reims.fr', msg.as_string())
 mailserver.quit()
 
