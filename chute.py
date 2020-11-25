@@ -7,7 +7,7 @@ from email.MIMEMultipart import MIMEMultipart
 from email.MIMEText import MIMEText
 
 msg = MIMEMultipart()
-msg['From'] = 'info0704projet1@gmail.com'
+msg['From'] = 'info704projet1@gmail.com'
 msg['To'] = 'dylan.baptiste@etudiant.univ-reims.fr'
 msg['Subject'] = 'Le sujet de mon mail' 
 message = 'Bonjour !'
@@ -16,8 +16,8 @@ mailserver = smtplib.SMTP('smtp.gmail.com', 587)
 mailserver.ehlo()
 mailserver.starttls()
 mailserver.ehlo()
-mailserver.login('info0704projet1@gmail.com', 'info0704')
-mailserver.sendmail('info0704projet1@gmail.com', 'dylan.baptiste@etudiant.univ-reims.fr', msg.as_string())
+mailserver.login('info704projet1@gmail.com', 'info0704')
+mailserver.sendmail('info704projet1@gmail.com', 'dylan.baptiste@etudiant.univ-reims.fr', msg.as_string())
 mailserver.quit()
 
 Mysleep = 0.2
