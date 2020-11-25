@@ -62,8 +62,7 @@ while True:
 	else:
 		if freefall==1:
 			if((a-min>12)):
-				print("Il semblerait que vous etes tombe")
-				print(a-min)
+				print("Il semblerait que vous etes tombe", a-min)
 				attente = 1
 				curr=time.time()
 				sleep(5)
