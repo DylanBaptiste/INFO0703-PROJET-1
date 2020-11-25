@@ -56,7 +56,7 @@ while True:
 	print(a)
 	if a < 1:
 		min = a
-        sense.clear(255,0,0)
+		sense.clear(255,0,0)
 		freefall=1
 		Mysleep=0
 	else:
