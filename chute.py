@@ -2,7 +2,6 @@
 from math import sqrt
 import time
 from time import sleep
-#test
 Mysleep = 0.2
 Realfall=0
 Falsefall=0
