@@ -1,4 +1,4 @@
- from sense_hat import SenseHat
+from sense_hat import SenseHat
 from math import sqrt
 import time
 from time import sleep
