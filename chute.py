@@ -56,12 +56,12 @@ while True:
 	print(a)
 	if a < 1:
 		min = a
-        	sense.clear(255,0,0)
+        sense.clear(255,0,0)
 		freefall=1
 		Mysleep=0
 	else:
 		if freefall==1:
-			if((a-min>12)):
+			if((a-min>10)):
 				print("Il semblerait que vous etes tombe", a-min)
 				attente = 1
 				curr=time.time()
